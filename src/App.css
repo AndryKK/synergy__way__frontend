@@ -1,10 +1,18 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  background: #000;
+  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    color: aliceblue;
+    transform: translateY(300px);
+    font-size: 10vh;
   }
 }
 
@@ -15,4 +23,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  margin: 0;
 }
